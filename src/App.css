@@ -1,0 +1,156 @@
+/* General App Styles */
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #34a853;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Home Section */
+.home {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff9e6;
+}
+
+.shop-caption {
+  font-size: 24px;
+  color: #5f6368;
+  font-weight: bold;
+}
+
+/* Bouquets Section */
+.bouquets {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f1f1f1;
+}
+
+.bouquets h2 {
+  font-size: 28px;
+  color: #34a853;
+}
+
+/* Cart Section */
+.cart {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.cart h2 {
+  font-size: 28px;
+  color: #34a853;
+}
+
+/* Shop Now Section */
+.shop-now {
+  background-color: #34a853;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.shop-now h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.shop-now-btn {
+  background-color: white;
+  color: #34a853;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.shop-now-btn:hover {
+  background-color: #f1f1f1;
+}
+
+/* Product Catalog */
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 16px;
+  width: 220px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+}
+
+.card p {
+  font-weight: bold;
+  color: green;
+}
+
+.card button {
+  background-color: #34a853;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #2e8b57;
+}
+
